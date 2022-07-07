@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace PIME
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para PageMonitor.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PageMonitor : Page
     {
-        public MainWindow()
+        public PageMonitor()
         {
             InitializeComponent();
-        }
-
-        private void sidebar_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            var selected = sidebar.SelectedItem as NavButton;
-
-            navframe.Navigate(selected.NavLink);
         }
     }
 }
