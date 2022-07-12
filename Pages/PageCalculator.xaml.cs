@@ -23,6 +23,7 @@ namespace PIME.Pages
         public Page2()
         {
             InitializeComponent();
+
         }
     }
 }

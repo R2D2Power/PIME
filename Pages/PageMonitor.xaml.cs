@@ -23,6 +23,27 @@ namespace PIME
         public PageMonitor()
         {
             InitializeComponent();
+            int vrmsAVal = 4345;
+            
+
+            VrmsAtxt.Text = Convert.ToString(vrmsAVal);
+            VrmsBtxt.Text = Convert.ToString(vrmsAVal);
+            VrmsCtxt.Text = Convert.ToString(vrmsAVal);
+            VrmsABCtxt.Text = Convert.ToString(vrmsAVal);
+            IrmsAtxt.Text = Convert.ToString(vrmsAVal);
+            IrmsBtxt.Text = Convert.ToString(vrmsAVal);
+            IrmsCtxt.Text = Convert.ToString(vrmsAVal);
+            IrmsABCtxt.Text = Convert.ToString(vrmsAVal);
+            PActiveAtxt.Text = Convert.ToString(vrmsAVal);
+            PActiveBtxt.Text = Convert.ToString(vrmsAVal);
+            PActiveCtxt.Text = Convert.ToString(vrmsAVal);
+            PActiveABCtxt.Text = Convert.ToString(vrmsAVal);
+            CosfiAtxt.Text = Convert.ToString(vrmsAVal);
+            CosfiBtxt.Text = Convert.ToString(vrmsAVal);
+            CosfiCtxt.Text = Convert.ToString(vrmsAVal);
+            CosfiABCtxt.Text = Convert.ToString(vrmsAVal);
+
+
         }
     }
 }
