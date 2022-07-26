@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="LogoPIME.png" />
     <None Remove="Pages\LogoPIME.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\LogoPIME.png" />
+    <Resource Include="LogoPIME.png" />
   </ItemGroup>
 
 </Project>

@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PageMonitor">
 
-    <Grid Background="White">
+    <Grid Background="#FF232027">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="2*"/>
@@ -28,72 +28,72 @@
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             <WrapPanel Grid.Column="0" Grid.Row="0" Margin="10">
-                <TextBlock>VRMS A</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">VRMS A</TextBlock>
                 <TextBox Margin="5,0" Name="VrmsAtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="0" Grid.Row="1" Margin="10">
-                <TextBlock>VRMS B</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">VRMS B</TextBlock>
                 <TextBox Margin="5,0" Name="VrmsBtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="0" Grid.Row="2" Margin="10">
-                <TextBlock>VRMS C</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">VRMS C</TextBlock>
                 <TextBox Margin="5,0" Name="VrmsCtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="0" Grid.Row="3" Margin="10">
-                <TextBlock>VRMS ABC</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">VRMS ABC</TextBlock>
                 <TextBox Margin="5,0" Name="VrmsABCtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="1" Grid.Row="0" Margin="10">
-                <TextBlock>IRMS A</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">IRMS A</TextBlock>
                 <TextBox Margin="5,0" Name="IrmsAtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="1" Grid.Row="1" Margin="10">
-                <TextBlock>IRMS B</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">IRMS B</TextBlock>
                 <TextBox Margin="5,0" Name="IrmsBtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="1" Grid.Row="2" Margin="10">
-                <TextBlock>IRMS C</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">IRMS C</TextBlock>
                 <TextBox Margin="5,0" Name="IrmsCtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="1" Grid.Row="3" Margin="10">
-                <TextBlock>IRMS ABC</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">IRMS ABC</TextBlock>
                 <TextBox Margin="5,0" Name="IrmsABCtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="2" Grid.Row="0" Margin="10">
-                <TextBlock>PActive A</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">PActive A</TextBlock>
                 <TextBox Margin="5,0" Name="PActiveAtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="2" Grid.Row="1" Margin="10">
-                <TextBlock>PActive B</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">PActive B</TextBlock>
                 <TextBox Margin="5,0" Name="PActiveBtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="2" Grid.Row="2" Margin="10">
-                <TextBlock>PActive C</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">PActive C</TextBlock>
                 <TextBox Margin="5,0" Name="PActiveCtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="2" Grid.Row="3" Margin="10">
-                <TextBlock>PActive ABC</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">PActive ABC</TextBlock>
                 <TextBox Margin="5,0" Name="PActiveABCtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="3" Grid.Row="0" Margin="10">
-                <TextBlock >Cosfi A</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">Cosfi A</TextBlock>
                 <TextBox Margin="5,0" Name="CosfiAtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="3" Grid.Row="1" Margin="10">
-                <TextBlock>Cosfi B</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">Cosfi B</TextBlock>
                 <TextBox Margin="5,0" Name="CosfiBtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="3" Grid.Row="2" Margin="10">
-                <TextBlock>Cosfi C</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">Cosfi C</TextBlock>
                 <TextBox Margin="5,0" Name="CosfiCtxt"></TextBox>
             </WrapPanel>
             <WrapPanel Grid.Column="3" Grid.Row="3" Margin="10">
-                <TextBlock>Cosfi ABC</TextBlock>
+                <TextBlock FontFamily="Yu Gothic UI Semibold" Foreground="White">Cosfi ABC</TextBlock>
                 <TextBox Margin="5,0" Name="CosfiABCtxt"></TextBox>
             </WrapPanel>
 
         </Grid>
-        <Label Grid.Row="0" Content="Monitor" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontFamily="Meiryo UI" FontWeight="Bold"/>
+        <Label Grid.Row="0" Content="Monitor" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontFamily="Yu Gothic UI Semibold" FontWeight="Bold" Foreground="White"/>
 
 
 
